@@ -1,0 +1,18 @@
+﻿生成启动时间为 2015/9/7 23:22:44。
+     1>项目“F:\c++\project\test\C\C\C.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\安装程序\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt self.cpp
+         self.cpp
+     1>f:\c++\project\test\c\c\self.cpp(40): warning C4129: “.”: 不可识别的字符转义序列
+     1>f:\c++\project\test\c\c\self.cpp(55): warning C4129: “s”: 不可识别的字符转义序列
+     1>f:\c++\project\test\c\c\self.cpp(120): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         E:\安装程序\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\c++\project\test\C\Debug\C.exe" /INCREMENTAL /NOLOGO opencv_ts300.lib opencv_world300.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\c++\project\test\C\Debug\C.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\c++\project\test\C\Debug\C.lib" /MACHINE:X86 Debug\amin.obj
+         Debug\hello.obj
+         Debug\self.obj
+         C.vcxproj -> F:\c++\project\test\C\Debug\C.exe
+     1>已完成生成项目“F:\c++\project\test\C\C\C.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.63
