@@ -79,7 +79,7 @@ void preConnect()  //socket进行网络连接
 		cout << "bind函数失败！ 错误码： " << WSAGetLastError() << endl;
 		return;
 	}
-	struct hostent  *p = gethostbyname(host);
+	struct hostent  *p = gethostbyname(host);　
 	if (p == NULL)
 	{
 		cout << "主机无法解析出ip! 错误吗： " << WSAGetLastError() << endl;
