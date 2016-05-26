@@ -1,7 +1,7 @@
 ﻿/*下载图片 C++ Winsock 网络编程*/
 #define _CRT_SECURE_NO_WARNINGS   //vs 2013用于忽略c语言安全性警告
 #include <cstdio>
-#include <iostream>
+#include <iostream> 
 #include <fstream>
 #include <string>
 #include <cstring>
